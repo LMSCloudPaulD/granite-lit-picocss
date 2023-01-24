@@ -9,11 +9,8 @@
     "url": "git://github.com/LMSCloudPaulD/granite-lit-picocss.git"
   },
   "homepage": "https://github.com/LMSCloudPaulD/granite-lit-picocss",
-  "dependencies": {
-    "lit": "^2.0.0-rc.1"
-  },
   "scripts": {
-    "prepare": "node ./node_modules/granite-lit-css-modularizer/granite-lit-css-modularizer.js ./node_modules/spectre.css/dist . spectreStyles"
+    "prepare": "node ./node_modules/granite-lit-css-modularizer/granite-lit-css-modularizer.js ./node_modules/@picocss/pico/css picocssStyles"
   },
   "author": "Paul Derscheid <paul.derscheid@lmscloud.de>",
   "license": "Apache 2.0",
