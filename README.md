@@ -2,7 +2,10 @@
 
 *granite-picocss* is a wrapping of [PicoCSS](https://picocss.com/) CSS as [LitElement](https://lit-element.polymer-project.org/) [lit-html CSS TemplateResult](https://lit-element.polymer-project.org/guide/styles) to be used in LitElement web components.
 
+### Warning!
 
+Unfortunately these cssTemplateResults use the :root pseudo-element and don't get converted to :host properly.
+This obivously needs some more thought to work. PR if you know PicoCSS (and are bored).
 
 
 ### Using `granite-lit-picocss`
