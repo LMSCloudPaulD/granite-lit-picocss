@@ -10,12 +10,18 @@
   },
   "homepage": "https://github.com/LMSCloudPaulD/granite-lit-picocss",
   "scripts": {
-    "prepare": "node ./node_modules/granite-lit-css-modularizer/granite-lit-css-modularizer.js ./node_modules/@picocss/pico/css picocssStyles"
+    "prepare": "node ./node_modules/granite-lit-css-modularizer/granite-lit-css-modularizer.js ./node_modules/@picocss/pico/css picocssStyles",
+    "serve": "npx es-dev-server --node-resolve --watch"
   },
   "author": "Paul Derscheid <paul.derscheid@lmscloud.de>",
   "license": "Apache 2.0",
   "devDependencies": {
     "@picocss/pico": "^1.5.6",
+    "@webcomponents/webcomponentsjs": "^2.7.0",
+    "es-dev-server": "^2.1.0",
     "granite-lit-css-modularizer": "^2.0.0"
+  },
+  "dependencies": {
+    "lit": "^2.6.1"
   }
 }
