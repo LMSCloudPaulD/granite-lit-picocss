@@ -2,9 +2,18 @@
   "name": "@granite-elements/granite-lit-picocss",
   "version": "1.5.6",
   "description": "Wrapping of *picocss* as a LitElement CSS TemplateResult to be used in LitElement web components",
-  "main": "index.js",
+  "main": "granite-lit-pico-min.js",
+  "module": "granite-lit-pico-min.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/LMSCloudPaulD/granite-lit-picocss.git"
+  },
+  "homepage": "https://github.com/LMSCloudPaulD/granite-lit-picocss",
+  "dependencies": {
+    "lit": "^2.0.0-rc.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "node ./node_modules/granite-lit-css-modularizer/granite-lit-css-modularizer.js ./node_modules/spectre.css/dist . spectreStyles"
   },
   "author": "Paul Derscheid <paul.derscheid@lmscloud.de>",
   "license": "Apache 2.0",
