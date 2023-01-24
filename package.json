@@ -1,5 +1,5 @@
 {
-  "name": "@granite-elements/granite-lit-picocss",
+  "name": "@lmscloud/granite-lit-picocss",
   "version": "1.5.6",
   "description": "Wrapping of *picocss* as a LitElement CSS TemplateResult to be used in LitElement web components",
   "main": "granite-lit-pico-min.js",
